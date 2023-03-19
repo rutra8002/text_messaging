@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Messaging</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Simple Messaging</h1>
+	<div id="login-form">
+		<h2>Login</h2>
+		<form>
+			<input type="text" name="username" placeholder="Username">
+			<input type="password" name="password" placeholder="Password">
+			<button type="submit">Login</button>
+		</form>
+	</div>
+	<div id="message-list" style="display:none;"></div>
+	<div id="message-form" style="display:none;">
+		<form>
+			<input type="text" name="message" placeholder="Type your message here...">
+			<button type="submit">Send</button>
+		</form>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

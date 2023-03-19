@@ -1,0 +1,81 @@
+/* CSS code for styling the login form */
+#login-form {
+    width: 50%;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+#login-form h2 {
+    margin-top: 0;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"],
+#login-form button[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#login-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+/* CSS code for styling the message list */
+#message-list {
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    max-height: 500px;
+    overflow-y: auto;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+#message-list p {
+    margin: 0;
+}
+
+/* CSS code for styling the message form */
+#message-form {
+    width: 50%;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+#message-form h2 {
+    margin-top: 0;
+}
+
+#message-form input[type="text"],
+#message-form input[type="password"],
+#message-form button[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#message-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+.message {
+    width: 500px; /* set the width to your desired value */
+    word-wrap: break-word;
+}
